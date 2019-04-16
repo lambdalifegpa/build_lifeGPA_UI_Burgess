@@ -208,6 +208,11 @@ p, ul, ol, dl, table, blockquote, form {
 
 }
 
+.feature-icon {
+	width: 50px;
+	height: auto;
+}
+
 /* row */
 
 .row {
