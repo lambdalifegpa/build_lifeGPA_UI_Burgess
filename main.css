@@ -1,3 +1,5 @@
+
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -192,6 +194,18 @@ p, ul, ol, dl, table, blockquote, form {
 	.container {
 		width: calc(100%-40px);
 	}
+}
+
+#team {
+	background-color: #282b34;
+	padding-bottom: 25px;
+}
+
+.profile-pic {
+	width: 150px;
+	height: auto;
+	border: 2px solid lightskyblue;
+
 }
 
 /* row */
