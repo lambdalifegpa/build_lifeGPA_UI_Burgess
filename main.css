@@ -199,6 +199,7 @@ p, ul, ol, dl, table, blockquote, form {
 #team {
 	background-color: #282b34;
 	padding-bottom: 25px;
+	padding-top: 25px;
 }
 
 .profile-pic {
@@ -2962,9 +2963,6 @@ form ul.actions {
 
 	/* Header */
 
-	#header {
-		height: 17em;
-	}
 
 	.homepage #header {
 		height: 20em;
@@ -3087,4 +3085,53 @@ form ul.actions {
 		margin-top: 0;
 	}
 
+}
+
+/* gradient */
+
+#header {
+	height: 17em;
+	width: auto;
+	color: #fff;
+	background: linear-gradient(45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+	background-size: 100% 100%;
+	-webkit-animation: Gradient 5s ease infinite;
+	-moz-animation: Gradient 5s ease infinite;
+	animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
